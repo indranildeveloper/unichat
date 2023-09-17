@@ -1,7 +1,12 @@
+import { Outlet } from "react-router-dom";
+import { AuthProvider } from "./context/AuthContext";
+
 const App = () => {
   return (
     <div>
-      <h1>Hello World!</h1>
+      <AuthProvider>
+        <Outlet />
+      </AuthProvider>
     </div>
   );
 };
