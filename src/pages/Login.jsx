@@ -22,14 +22,14 @@ const Login = () => {
         >
           <FaGoogle /> Sign In with Google
         </button>
-        <br />
+        {/* <br />
         <br />
         <button
           className="login-button facebook"
           onClick={() => signInWithRedirect(auth, facebookProvider)}
         >
           <FaFacebook /> Sign In with Facebook
-        </button>
+        </button> */}
       </div>
     </div>
   );
